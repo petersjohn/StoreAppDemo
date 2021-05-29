@@ -69,6 +69,11 @@ hr {
 .right{
     float: right;
 }
+
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
 /*Header*/
 
 header{
@@ -209,3 +214,55 @@ section div.panel img.cheeseType {
 }
 
 /*Footer*/
+footer {
+    background-color: #40362f;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display:inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding:0;
+}
+
+footer ul li{
+    display:inline-block;
+    padding:0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+/*miscellaneous stying*/
+
+button {
+    color:#C64322;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid #C64322;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #FBF3DB;
+    border: 1px solid #745b2f;
+}
+
+
+
+
+/*
