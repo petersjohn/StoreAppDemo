@@ -163,6 +163,22 @@ nav#utilityMenu ul li input#search {
     margin: 0 0 0  1em;
 }
 
+nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
+    content: "| ";
+    color: #FCFBE6;
+}
+
+
 /*Sidebar Section*/
+
+section#sidebar {
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 1.5em 0 2.0em 1.7em;
+    border-left: #2BA967 solid 5px;
+}
 /*Main Section*/
 /*Footer*/
