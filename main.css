@@ -1,0 +1,76 @@
+/*Common Elements*/
+body{
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #39150C url(img/paper_1332008.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size:100% 100%;
+
+}
+h1{
+    color: #2BA967;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2{
+    color:#745b2f;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #555;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+ol{
+    font-size:  1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0 em;
+}
+ol li{
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+
+a, a:visited {
+    color: #C64322;
+}
+
+a:hover {
+    color: #333;
+}
+
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding:0 3.0em;
+
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+/*Header*/
+/*Nav Bars*/
+/*Sidebar Section*/
+/*Main Section*/
+/*Footer*/
